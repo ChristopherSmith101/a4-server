@@ -1,10 +1,15 @@
 {
-  "name": "${PROJECT_NAME}",
+  "name": "a4-server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "build": "echo 'No build step needed for backend.'"
   },
-  "private": true
+  "private": true,
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "mongodb": "^6.13.1"
+  }
 }
